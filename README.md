@@ -289,38 +289,4 @@ Alternatively, one can use the `--test-asset-url` option to replace the raw MP4 
 * When a client joins the live stream during an ad break, it should append the request with *_HLS_start_offset* query parameter to indicate the offset in seconds of the playback start point from the beginning of the interstitial. One can use this to customize interstitial content based on the starting offset.
 * The proxy server can only handle one HLS stream at a time. To switch streams, the server must be restarted.
 
-## License (Apache-2.0)
 
-Copyright 2023 Eyevinn Technology AB
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-``` text
-  http://www.apache.org/licenses/LICENSE-2.0
-```
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-
-## Support
-
-Join our [community on Slack](http://slack.streamingtech.se) where you can post any questions regarding any of our open source projects. Eyevinn's consulting business can also offer you:
-
-* Further development of this component
-* Customization and integration of this component into your platform
-* Support and maintenance agreement
-
-Contact [sales@eyevinn.se](mailto:sales@eyevinn.se) if you are interested.
-
-## About Eyevinn Technology
-
-Eyevinn Technology is an independent consultant firm specialized in video and streaming. Independent in a way that we are not commercially tied to any platform or technology vendor.
-
-At Eyevinn, every software developer consultant has a dedicated budget reserved for open source development and contribution to the open source community. This gives us room for innovation, team building and personal competence development. And also gives us as a company a way to contribute back to the open source community.
-
-Want to know more about Eyevinn and how it is to work here. Contact us at <work@eyevinn.se>!
